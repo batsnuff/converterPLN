@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>currencyConverter</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/container.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/form.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="form js-form">
+        <fieldset class="form__fieldset">
+          <legend class="form__legend">PLN-converter</legend>
+          <p>
+            <label>
+              <span class="form__labelText"> Kwota:</span>
+              <input
+                class="js-amount"
+                type="number"
+                name="amount"
+                min="1"
+                placeholder="Wpisz kwotę w PLN"
+              />
+            </label>
+          </p>
+          <p>
+            <label>
+              <span class="form__labelText">Waluta:</span>
+              <select class="js-currency" name="foreignCurrency">
+                <option value="USD">Dolar amerykański</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">Funt Brytyjski</option>
+              </select>
+            </label>
+          </p>
+        </fieldset>
+        <p>
+          <button class="form__button">Przelicz</button>
+        </p>
+        <p>Kwota w obcej walucie:<strong class="js-result"></strong></p>
+      </form>
+    </div>
+  </body>
+</html>
