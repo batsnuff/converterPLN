@@ -1,25 +1,25 @@
-# ConverterPLN
-## ConverterPLN to aplikacja internetowa, która umożliwia szybką i łatwą konwersję walut z polskimi złotymi jako walutą bazową.
+# PLN converter
+## ConverterPLN is an online application that allows you to quickly and easily convert currencies with Polish zlotys as the base currency.
 
-### Opis
-Aplikacja ConverterPLN została stworzona w celu ułatwienia użytkownikom konwersji różnych walut na polskie złote. Dzięki niej można łatwo i szybko przeliczyć kwoty pomiędzy PLN, a Dolarem Amerykańskim, Euro czy Funtem Brytyjskim według kursu z dnia 06.04.23.   
+### Description
+The ConverterPLN application was created to help users convert various currencies into Polish zlotys. Thanks to the fact that you can easily and quickly convert between PLN and the US dollar, Euro or British pound with the exchange rate on 04/06/23.
 
-Aplikacja jest prosta w obsłudze i wygodna w użytkowaniu. Użytkownik może wprowadzić kwotę w polskich złotych, wybrać walute którą oczekuje przeliczyć, a na koniec kliknąć przycisk "Przelicz" by uzyskać rezultat.
+The application is simple to equip and convenient to use. The user can enter the amount in Polish zlotys, select the currency to be converted, and at the end of the "Convert" button, get the result.
 
-### Funkcje
-Aplikacja ConverterPLN posiada następujące funkcje:
+### Functions
+The ConverterPLN application has the following functions:
 
-- Konwersja walut: aplikacja pozwala na konwersję dowolnej waluty na polskie złote.
-- Obsługa wielu walut: aplikacja obsługuje Dolara Amerykańskiego, Euro czy Funta Brytyjskiego, dzięki czemu można łatwo i szybko przeliczyć kwoty z wyżej wymienionych krajów.
+- Currency conversion: the application allows you to convert currency to Polish zlotys.
+- Multi-currency support: the application supports the US Dollar, Euro or British Pound, so you can easily and quickly convert the above-mentioned countries.
 
-### Technologie
-Aplikacja została stworzona z użyciem języków HTML, CSS i JavaScript.
+### Technology
+The application was created using HTML, CSS and JavaScript.
 
-### Uruchamianie aplikacji
-Aby uruchomić aplikację, należy wejść na stronę internetową pod adresem : [link](https://batsnuff.github.io/converterPLN/)
+### Launching the application
+To share, please visit the interface page at: [link](https://batsnuff.github.io/converterPLN/)
 
-### Wkładanie zmian
-Jeśli chcesz wprowadzić zmiany do aplikacji ConverterPLN, możesz skorzystać z opcji fork na GitHub i utworzyć Pull Request. Będę wdzięczny za wszelkie sugestie i uwagi.
+### Insert changes
+If you want to make changes to the ConverterPLN application, you can use the fork option on GitHub and install Pull Request. Thank you for any suggestions and comments.
 
-#### Autor
-Ta aplikacja została stworzona przez Milosz Szczepaniak.
+#### Author
+This application was created by Miłosz Szczepaniak.
