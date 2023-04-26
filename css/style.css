@@ -15,5 +15,6 @@ html {
 }
 
 .color {
-  background-color: #6093ac
+  background-color: #6093ac;
+  border-radius: 7px;
 }
