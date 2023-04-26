@@ -16,7 +16,7 @@ Aplikacja ConverterPLN posiada następujące funkcje:
 Aplikacja została stworzona z użyciem języków HTML, CSS i JavaScript.
 
 ### Uruchamianie aplikacji
-Aby uruchomić aplikację, należy wejść na stronę internetową pod adresem https://batsnuff.github.io/converterPLN/.
+Aby uruchomić aplikację, należy wejść na stronę internetową pod adresem : [link](https://batsnuff.github.io/converterPLN/)
 
 ### Wkładanie zmian
 Jeśli chcesz wprowadzić zmiany do aplikacji ConverterPLN, możesz skorzystać z opcji fork na GitHub i utworzyć Pull Request. Będę wdzięczny za wszelkie sugestie i uwagi.
