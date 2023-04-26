@@ -7,8 +7,13 @@ html {
   ::after {
     box-sizing: inherit;
   }
+
 .tlo {
   background-image: url("../images/tlo.png");
   background-repeat: no-repeat;
   background-size: cover;
-} 
+}
+
+.color {
+  background-color: #6093ac
+}

@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:image" content="images/converter.png">
-    <meta property="og:description" content="PLN-converter">
+    <meta property="og:image" content="images/converter.png" />
+    <meta property="og:description" content="PLN-converter" />
     <title>currencyConverter</title>
-    <link rel="icon" href="images/icon.png">
+    <link rel="icon" href="images/icon.png" />
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/container.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
@@ -21,7 +21,7 @@
           <legend class="form__legend">PLN-converter</legend>
           <p>
             <label>
-              <span class="form__labelText"> Kwota:</span>
+              <span class="form__labelText"><strong class="color">Kwota:</strong></span>
               <input
                 class="js-amount"
                 type="number"
@@ -33,7 +33,7 @@
           </p>
           <p>
             <label>
-              <span class="form__labelText">Waluta:</span>
+              <span class="form__labelText"><strong class="color">Waluta:</strong></span>
               <select class="js-currency" name="foreignCurrency">
                 <option value="USD">Dolar amerykański</option>
                 <option value="EUR">Euro</option>
@@ -45,7 +45,10 @@
         <p>
           <button class="form__button">Przelicz</button>
         </p>
-        <p>Kwota w obcej walucie:<strong class="js-result"></strong></p>
+        <p class="color">
+          <strong>Kwota w obcej walucie:</strong>
+          <strong class="js-result"></strong>
+        </p>
       </form>
     </div>
   </body>
