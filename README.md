@@ -1,6 +1,8 @@
 # PLN converter
 ## ConverterPLN is an online application that allows you to quickly and easily convert currencies with Polish zlotys as the base currency.
 
+![Widok przelicznika](images/github%20ss.png)
+
 ### Description
 The ConverterPLN application was created to help users convert various currencies into Polish zlotys. Thanks to the fact that you can easily and quickly convert between PLN and the US dollar, Euro or British pound with the exchange rate on 04/06/23.
 
