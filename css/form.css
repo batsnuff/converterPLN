@@ -8,7 +8,7 @@
 
 .form__button {
     width: 100%;
-    background-color: #6093ac;
+    background-color: #252e33;
     color: #f3eded;
     padding: 5px;
     border-radius: 7px;
@@ -30,7 +30,7 @@
 }
 
 .form__legend {
-    background-color: #6093ac;
+    background-color: #252e33;
     color: #f3eded;
     padding: 10px;
     border-radius: 7px;
