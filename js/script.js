@@ -1,19 +1,13 @@
+const formElement = document.querySelector(".js-form");
+const amountElement = document.querySelector(".js-amount");
+const currencyElement = document.querySelector(".js-currency");
+const resultElement = document.querySelector(".js-result");
+
+const EUR = 4.33;
+const USD = 4.02;
+const GBP = 5.07;
 {
-  const formElement = document.querySelector(".js-form");
-  const amountElement = document.querySelector(".js-amount");
-  const currencyElement = document.querySelector(".js-currency");
-  const resultElement = document.querySelector(".js-result");
-
-  const EUR = 4.33;
-  const USD = 4.02;
-  const GBP = 5.07;
-
-  formElement.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    const amount = +amountElement.value;
-    const currency = currencyElement.value;
-
+  function calculateResult(amount, currency) {
     let result;
 
     switch (currency) {
@@ -30,11 +24,29 @@
         break;
     }
 
-    resultElement.innerText = `${result.toFixed(2)} ${currency}`;
-  });
+    return result.toFixed(2);
+  }
+}
+
+function updateResultDisplay(result, currency) {
+  resultElement.innerText = `${result} ${currency}`;
 }
 {
-  // funkcja zoomu
+  function onFormSubmit(event) {
+    event.preventDefault();
+
+    const amount = +amountElement.value;
+    const currency = currencyElement.value;
+
+    const result = calculateResult(amount, currency);
+    updateResultDisplay(result, currency);
+  }
+
+  // add event listener to form
+  formElement.addEventListener("submit", onFormSubmit);
+}
+{
+  // zoomu function
 
   function toggleZoomElements() {
     const elements = document.querySelectorAll(
