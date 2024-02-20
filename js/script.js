@@ -49,25 +49,26 @@
 }
 
 // zoomu function
+{
+  function toggleZoomElements() {
+    const elements = document.querySelectorAll(
+      ".form, .form__fieldset, .form__legend, .form__labelText, .js-amount, .js-currency, .form__button, .js-result"
+    );
+    const button = document.querySelector(".form__zoom-button");
 
-function toggleZoomElements() {
-  const elements = document.querySelectorAll(
-    ".form, .form__fieldset, .form__legend, .form__labelText, .js-amount, .js-currency, .form__button, .js-result"
-  );
+    elements.forEach((element) => {
+      if (element.style.fontSize === "1.5em") {
+        element.style.fontSize = "1em";
+        element.style.textAlign = "left";
+        button.textContent = "Powiększ formularz";
+      } else {
+        element.style.fontSize = "1.5em";
+        element.style.textAlign = "center";
+        button.textContent = "Zmniejsz formularz";
+      }
+    });
+  }
+
   const button = document.querySelector(".form__zoom-button");
-
-  elements.forEach((element) => {
-    if (element.style.fontSize === "1.5em") {
-      element.style.fontSize = "1em";
-      element.style.textAlign = "left";
-      button.textContent = "Powiększ formularz";
-    } else {
-      element.style.fontSize = "1.5em";
-      element.style.textAlign = "center";
-      button.textContent = "Zmniejsz formularz";
-    }
-  });
+  button.addEventListener("click", toggleZoomElements);
 }
-
-const button = document.querySelector(".form__zoom-button");
-button.addEventListener("click", toggleZoomElements);
